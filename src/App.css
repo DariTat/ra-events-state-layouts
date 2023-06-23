@@ -1,38 +1,83 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
 .App {
-  text-align: center;
+  margin: 0 auto;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icon {
+  text-align: end;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.material-icons {
+  width: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-veiw {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.list-veiw {
+  list-style-type: none; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 50px 50px;
+  padding: 10px;
+  width: 20%;
+  background-color:#f8f8f8;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f8f8;
+  padding: 5px 10px;
+  margin-bottom: 5px ;
+}
+
+.card_name {
+  font-size: large;
+}
+
+.card_color {
+  font-size: small;
+}
+
+.img-card {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px; 
+}
+
+.footer {
+  display: flex;
+  color: red;
+  justify-content: space-between;
+}
+
+.card_price {
+  font-size: medium;
+  color: red;
+}
+
+.btn {
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid red;
+  color: red; 
+}
+
+.item-img {
+  width: 50px;
 }
